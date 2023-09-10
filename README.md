@@ -4,7 +4,7 @@ Sample recommendation model to predict recommended lineups to use for fantasy fo
 Files - all .cbm files are models fitted using catboost. The csv files are the features that were used to fit . Please contact vgl2@uw.edu for more information on how these models were fitted (features used, datasets used etc). All of the csv files and cbm files are needed in order to generate the recommendations. 
 
 Workhorse file - fantasy_football_recommender.ipynb 
-Wrapper file to use - main_recommender_wrapper.ipynb - Feel free to <shift - Enter> the entire way through this file until you reach the portion to add your platform info.
+Wrapper file to use - main_recommender_wrapper.ipynb - Feel free to `Shift - Enter` the entire way through this file until you reach the portion to add your platform info.
 
 This version only predicts for the following positions:
 1. QB
@@ -43,7 +43,7 @@ Note - This can be run locally and on the cloud.
 ### Yahoo
 Note - Not all features have been tested. Please raise issues on bugs that you find but it should be functional. Also, this program will only work for the most recent season. Further modifications are needed in order for it to work on prior seasons. 
 
-1. Path to json file containing the yahoo secret key/access token combination file - The contents will look like {access_token:XXXX,customer_key:YYYY,customer_secret:ZZZZ} where these are unique values. More information can be found at https://github.com/mattdodge/yahoofantasy under installation and autheneticaton for steps in generatng a yahoo oauth key. #Please do not share this file with anyone! 
+1. Path to json file containing the yahoo secret key/access token combination file - The contents will look like {access_token:XXXX,customer_key:YYYY,customer_secret:ZZZZ} where these are unique values. More information can be found at https://github.com/mattdodge/yahoofantasy under installation and autheneticaton for steps in generatng a yahoo oauth key. **Please do not share this file with anyone!**
 2. league id - This can be found in the Scoring & Settings section of your fantasy football home page.
 3. team name - This is the name of your team
 
