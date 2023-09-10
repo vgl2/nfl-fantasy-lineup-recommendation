@@ -47,4 +47,6 @@ Note - Not all features have been tested. Please raise issues on bugs that you f
 2. league id - This can be found in the Scoring & Settings section of your fantasy football home page.
 3. team name - This is the name of your team
 
+Lastly, please use this model with caution. I am not and will not responsible for any recommendations that this model will make - improvements will be made throughout the season based on availability and data persistency so please be patient! 
+
 Please raise any issues (e.g. bugs) via Github and please direct any questions and comments at vgl2@uw.edu. Lastly, please let me know if there are any platforms that you might want to be added in the future for predictions. 
