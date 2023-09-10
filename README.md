@@ -17,6 +17,7 @@ Future versions will take into account D/ST and kickers.
 
 Requirements:
 Packages that need to be installed:
+1. Anaconda **Please make sure this is already installed on your machine.** Download Anaconda at https://www.anaconda.com/download
 1. Numpy/Pandas
 2. CatBoost - more info about catboost at https://www.catboost.ai
 3. nfl_data_py - more info about nfl_data_py at https://github.com/cooperdff/nfl_data_py
