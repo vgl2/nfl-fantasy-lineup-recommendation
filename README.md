@@ -1,6 +1,10 @@
 # nfl-fantasy-lineup-recommendation
 Sample recommendation model to predict recommended lineups to use for fantasy football. All of the data has been provided by NFL FastR https://www.nflfastr.com/
 
+Files - all .cbm files are models fitted using catboost. The csv files are the features that were used to fit . Please contact vgl2@uw.edu for more information on how these models were fitted (features used, datasets used etc). All of the csv files and cbm files are needed in order to generate the recommendations. 
+
+Workhorse file - fantasy_football_recommender.ipynb 
+Wrapper file to use - main_recommender_wrapper.ipynb - Feel free to <shift - Enter> the entire way through this file until you reach the portion to add your platform info.
 
 This version only predicts for the following positions:
 1. QB
